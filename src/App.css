@@ -1,0 +1,376 @@
+.custom-navbar {
+  background-color: rgb(29, 79, 216);
+  padding: 10px;
+}
+
+.menu-icon {
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.account-icon {
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.main {
+  background-color: #0a2885;
+  height: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.start {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input::placeholder {
+  color: white;
+}
+
+.end {
+  /* height: "70px"; */
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  color: white;
+}
+
+.account-icon {
+  width: 30px;
+  height: 30px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.outer-card {
+  padding: 30px 20px;
+  background-color: rgb(241, 245, 249);
+}
+
+.custom-card {
+  padding: 20px;
+  /* margin: 20px; */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card-body {
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(10 40 133);
+}
+
+.input-div {
+  margin-top: 2.25rem;
+  width: 100%;
+}
+
+.number-label {
+  color: rgb(17 24 39);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+#number-input {
+  padding-left: 10px;
+  width: 97%;
+  height: 40px !important;
+  margin-top: 0.5rem;
+  background-color: white;
+  border-top-color: rgba(209, 213, 219, 0.19);
+  border-left-color: rgb(209, 213, 219, 0.19);
+  border-bottom-color: rgba(209, 213, 219, 0.49);
+  border-right-color: rgb(209, 213, 219, 0.49);
+  border-radius: 0.5rem;
+  height: 20px;
+}
+
+.second-card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 12px;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  margin-top: 0.5rem;
+  background-color: rgb(241 245 249);
+}
+
+.recharge-card-icon {
+  padding: 5px;
+}
+
+.recharge-card-text {
+  padding: 5px;
+}
+
+.descountimg {
+  width: 25px;
+  height: 25px;
+  color: rgb(234, 179, 8);
+}
+
+.recharge-btn-div {
+  margin-top: 1.15rem;
+  width: 100%;
+  height: 40px;
+}
+
+.recharge-btn {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: rgb(10, 40, 133);
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+}
+
+.bottom-div {
+  width: 100%;
+}
+
+.bottomimg {
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 12.8px;
+  padding: 0.25rem 0px;
+}
+
+.change-btn {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(37, 99, 235);
+}
+
+.rechargeTopCard {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(241, 245, 249);
+}
+
+.rechargeTopCard2{
+  margin-top: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(241, 245, 249);
+}
+
+.innerRechargeTopCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-icon{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.countdown{
+  margin-left: 5px;
+}
+
+h1{
+  font-weight: 700;
+}
+
+p{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.offer-heading{
+  padding: 10px;
+}
+
+.recharge-card-outer{
+  padding: 10px;
+}
+
+.recharge-card{
+  padding: 25px;
+  background-color: rgb(241, 245, 249);
+  border-radius: 10px;
+}
+
+.special{
+  display: flex;
+  width: 90px;
+  height: 30px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51 65 85);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.price-card{
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.price-card-left{
+  display: flex;
+}
+
+.special-price{
+  color: rgb(30 41 59);
+}
+
+.price{
+  margin-left: 10px;
+  text-decoration: line-through;
+  color: rgb(71 85 105);
+}
+
+.view-details{
+  color: rgb(29 78 216);
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.plan-info-head{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-info-head-text{
+  font-size: 16px;
+  color: rgb(71 85 105)
+}
+
+.plan-info{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-info-text{
+  margin-top: -5px;
+  font-size: 16px;
+  color: rgb(30 41 59);
+  font-weight: 700;
+}
+
+.subscription-card{
+  margin-top: 15px;
+  font-size: 16px;
+  color: rgb(71 85 105)
+}
+
+.subscription-icon-card{
+  display: flex;
+  margin-top: 10px;
+}
+
+.subscription-icon{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 5px;
+}
+
+.payment-card{
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.payment-card-title{
+  color: black;
+  margin-bottom: 30px;
+}
+
+.payment-method-card{
+  border: .7px solid rgb(209, 213, 219);
+  display: flex;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 5px;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.payment-method-icon{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.payment-method-name{
+  display: flex;
+  align-items: center;
+}
+
+.payment-extra{
+  color: #239700;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black; /* Same color as normal links */
+}
+
+a:active {
+  color: black; /* Same color as normal links */
+}
+/* bg = rgb(29 78 216 / var(--tw-bg-opacity))
+bg white = rgb(255 255 255 / var(--tw-bg-opacity))
+border = rgb(226 232 240/var(--tw-border-opacity))
+btn = rgb(10 40 133/var(--tw-bg-opacity)) */
