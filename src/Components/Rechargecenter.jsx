@@ -35,7 +35,7 @@ const Rechargecenter = () => {
             <div className="special">SPECIAL</div>
             <div className="price-card">
               <div className="price-card-left">
-                <div className="special-price">₹299</div>
+                <div className="special-price">₹199</div>
                 <div className="price">₹2999</div>
               </div>
               <div>
@@ -78,7 +78,7 @@ const Rechargecenter = () => {
             <div className="special">SPECIAL</div>
             <div className="price-card">
               <div className="price-card-left">
-                <div className="special-price">₹238</div>
+                <div className="special-price">₹129</div>
                 <div className="price">₹1099</div>
               </div>
               <div>
@@ -96,7 +96,7 @@ const Rechargecenter = () => {
             </div>
             <div className="plan-info">
               <div className="plan-info-text">84 Days</div>
-              <div className="plan-info-text">2.0 GB/Day</div>
+              <div className="plan-info-text">3.0 GB/Day</div>
               <div className="plan-info-text">Unlimited</div>
               <div className="plan-info-text">100/Day</div>
             </div>
@@ -123,7 +123,7 @@ const Rechargecenter = () => {
             <div className="special">SPECIAL</div>
             <div className="price-card">
               <div className="price-card-left">
-                <div className="special-price">₹288</div>
+                <div className="special-price">₹99</div>
                 <div className="price">₹1499</div>
               </div>
               <div>
@@ -141,7 +141,7 @@ const Rechargecenter = () => {
             </div>
             <div className="plan-info">
               <div className="plan-info-text">84 Days</div>
-              <div className="plan-info-text">3.0 GB/Day</div>
+              <div className="plan-info-text">2.0 GB/Day</div>
               <div className="plan-info-text">Unlimited</div>
               <div className="plan-info-text">100/Day</div>
             </div>
