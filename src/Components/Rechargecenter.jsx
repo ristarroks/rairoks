@@ -123,7 +123,7 @@ const Rechargecenter = () => {
             <div className="special">SPECIAL</div>
             <div className="price-card">
               <div className="price-card-left">
-                <div className="special-price">₹2</div>
+                <div className="special-price">₹99</div>
                 <div className="price">₹1499</div>
               </div>
               <div>
@@ -158,7 +158,7 @@ const Rechargecenter = () => {
               <img className="subscription-icon" src={sonyliv} alt="" />
             </div>
             <div className="recharge-btn-div">
-              <button type="submit" className="recharge-btn" id="2" onClick={handleRecharge}>
+              <button type="submit" className="recharge-btn" id="99" onClick={handleRecharge}>
                 Recharge
               </button>
             </div>
