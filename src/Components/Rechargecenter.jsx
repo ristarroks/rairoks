@@ -52,8 +52,8 @@ const Rechargecenter = () => {
               <div className="plan-info-head-text">SMS</div>
             </div>
             <div className="plan-info">
-              <div className="plan-info-text">365 Days</div>
-              <div className="plan-info-text">3.0 GB/Day</div>
+              <div className="plan-info-text">84 Days</div>
+              <div className="plan-info-text">1.5 GB/Day</div>
               <div className="plan-info-text">Unlimited</div>
               <div className="plan-info-text">100/Day</div>
             </div>
@@ -78,53 +78,8 @@ const Rechargecenter = () => {
             <div className="special">SPECIAL</div>
             <div className="price-card">
               <div className="price-card-left">
-                <div className="special-price">₹129</div>
+                <div className="special-price">₹199</div>
                 <div className="price">₹1099</div>
-              </div>
-              <div>
-                <img src={true5g} alt="" />
-              </div>
-            </div>
-            <div className="view-details">
-              <b>View Detailes</b>
-            </div>
-            <div className="plan-info-head">
-              <div className="plan-info-head-text">VALIDITY</div>
-              <div className="plan-info-head-text">DATA</div>
-              <div className="plan-info-head-text">VOICE</div>
-              <div className="plan-info-head-text">SMS</div>
-            </div>
-            <div className="plan-info">
-              <div className="plan-info-text">84 Days</div>
-              <div className="plan-info-text">3.0 GB/Day</div>
-              <div className="plan-info-text">Unlimited</div>
-              <div className="plan-info-text">100/Day</div>
-            </div>
-            <div className="subscription-card">SUBSCRIPTION</div>
-            <div className="subscription-icon-card">
-              <img className="subscription-icon" src={jiotv} alt="" />
-              <img className="subscription-icon" src={jiocinema} alt="" />
-              <img className="subscription-icon" src={jiosaavan} alt="" />
-              <img className="subscription-icon" src={jiocloud} alt="" />
-              <img className="subscription-icon" src={netflix} alt="" />
-              <img className="subscription-icon" src={prime} alt="" />
-            </div>
-            <div className="recharge-btn-div">
-              <button type="submit" className="recharge-btn" id="129" onClick={handleRecharge}>
-                Recharge
-              </button>
-            </div>
-          </Card.Body>
-        </Card>
-      </div>
-      <div className="recharge-card-outer">
-        <Card className="recharge-card">
-          <Card.Body className="">
-            <div className="special">SPECIAL</div>
-            <div className="price-card">
-              <div className="price-card-left">
-                <div className="special-price">₹99</div>
-                <div className="price">₹1499</div>
               </div>
               <div>
                 <img src={true5g} alt="" />
@@ -153,12 +108,57 @@ const Rechargecenter = () => {
               <img className="subscription-icon" src={jiocloud} alt="" />
               <img className="subscription-icon" src={netflix} alt="" />
               <img className="subscription-icon" src={prime} alt="" />
+            </div>
+            <div className="recharge-btn-div">
+              <button type="submit" className="recharge-btn" id="199" onClick={handleRecharge}>
+                Recharge
+              </button>
+            </div>
+          </Card.Body>
+        </Card>
+      </div>
+      <div className="recharge-card-outer">
+        <Card className="recharge-card">
+          <Card.Body className="">
+            <div className="special">SPECIAL</div>
+            <div className="price-card">
+              <div className="price-card-left">
+                <div className="special-price">₹249</div>
+                <div className="price">₹1499</div>
+              </div>
+              <div>
+                <img src={true5g} alt="" />
+              </div>
+            </div>
+            <div className="view-details">
+              <b>View Detailes</b>
+            </div>
+            <div className="plan-info-head">
+              <div className="plan-info-head-text">VALIDITY</div>
+              <div className="plan-info-head-text">DATA</div>
+              <div className="plan-info-head-text">VOICE</div>
+              <div className="plan-info-head-text">SMS</div>
+            </div>
+            <div className="plan-info">
+              <div className="plan-info-text">170 Days</div>
+              <div className="plan-info-text">3 GB/Day</div>
+              <div className="plan-info-text">Unlimited</div>
+              <div className="plan-info-text">100/Day</div>
+            </div>
+            <div className="subscription-card">SUBSCRIPTION</div>
+            <div className="subscription-icon-card">
+              <img className="subscription-icon" src={jiotv} alt="" />
+              <img className="subscription-icon" src={jiocinema} alt="" />
+              <img className="subscription-icon" src={jiosaavan} alt="" />
+              <img className="subscription-icon" src={jiocloud} alt="" />
+              <img className="subscription-icon" src={netflix} alt="" />
+              <img className="subscription-icon" src={prime} alt="" />
               <img className="subscription-icon" src={hotstar} alt="" />
               <img className="subscription-icon" src={zee5} alt="" width="60px !important"/>
               <img className="subscription-icon" src={sonyliv} alt="" />
             </div>
             <div className="recharge-btn-div">
-              <button type="submit" className="recharge-btn" id="99" onClick={handleRecharge}>
+              <button type="submit" className="recharge-btn" id="249" onClick={handleRecharge}>
                 Recharge
               </button>
             </div>
