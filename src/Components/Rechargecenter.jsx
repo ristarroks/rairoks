@@ -65,7 +65,7 @@ const Rechargecenter = () => {
               <img className="subscription-icon" src={jiocloud} alt="" />
             </div>
             <div className="recharge-btn-div">
-              <button type="submit" className="recharge-btn" id="149" onClick={handleRecharge}>
+              <button type="submit" className="recharge-btn" id="5" onClick={handleRecharge}>
                 Recharge
               </button>
             </div>
@@ -78,7 +78,7 @@ const Rechargecenter = () => {
             <div className="special">SPECIAL</div>
             <div className="price-card">
               <div className="price-card-left">
-                <div className="special-price">₹199</div>
+                <div className="special-price">₹5</div>
                 <div className="price">₹1099</div>
               </div>
               <div>
